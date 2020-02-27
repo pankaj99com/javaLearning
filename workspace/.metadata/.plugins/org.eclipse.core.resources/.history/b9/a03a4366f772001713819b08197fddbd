@@ -1,0 +1,91 @@
+package demo.pankaj.ConstructorChaining;
+
+public class Employee {
+	 
+    // member variables
+    int empId;
+   
+    String employer;
+    
+    String fName;
+    String lName;
+    int salary;
+    // default constructor
+    Employee() {
+
+    	
+    	
+        System.out.println(" Inside default constructor");
+        this.employer = "Accolite Software";
+    }
+ 
+   
+    Employee(String fName,String lName) {
+ 
+       
+ 
+        System.out.println("Employee class: Inside parametrized constructor with 2 argument(String fName,String lName)");
+       
+        this.fName = fName;
+        this.lName = lName;
+    }
+ 
+    // parametrized constructor with 3 arguments (int id, String fName,String lName)
+    Employee(int id, String fName,String lName) {
+ 
+    	this.fName = fName;
+        this.lName=lName; // to invoke another 1-argument overloaded constructor from same class, this(String) constructor is used
+ 
+        System.out.println("Employee class: Inside parametrized constructor with 3 arguments (int id, String fName,String lName)");
+        this.empId = id;
+    }
+    Employee(String employer,int id, String fName,String lName) {
+    	 this.employer=employer;
+    	this.fName = fName;
+        this.lName=lName; // to invoke another 1-argument overloaded constructor from same class, this(String) constructor is used
+ 
+        System.out.println("Employee class :Inside parametrized constructor with 4 arguments (String employer,int id, String fName,String lName)");
+        this.empId = id;
+    }
+ void setEmployeeDeatils( int empId, String employer, String fName, String lName, int salary){
+	 this.empId=empId;
+	   
+	    this.employer=employer;
+	    
+	    this.fName=fName;
+	 this.lName=lName;
+	    this.salary=salary;
+ }
+    // display() method
+    void GetEmployeeInfo() {
+        System.out.println("\nEmployee details:  \n\nOrgnaization: " + employer + "\nId: " + empId + "\nFiirst Name: " + fName + "\nLast Naame:"+ lName +"\nSalary: " +salary);
+    }
+ 
+    public static void main(String args[]) {
+ 
+        // construct an object for permanent employee
+        System.out.println("Creating and displaying employee details\n");
+        System.out.println("******************************************************************");
+        
+        Employee e = new Employee("Amazon",19, "Pankaj","Kumar");
+        System.out.println("******************************************************************");
+        
+        Employee e1=new Employee("pankaj","kumar");
+        
+         e.GetEmployeeInfo();
+         System.out.println("******************************************************************");
+         
+         e.setEmployeeDeatils(10, "Oracle", "pankaj","kumar", 1000000);
+         e.GetEmployeeInfo();
+         System.out.println("******************************************************************");
+         
+        e1.GetEmployeeInfo();
+       Employee e2=new Employee();
+       e2.GetEmployeeInfo();
+        System.out.println("******************************************************************");
+ 
+        
+ 
+      
+    }
+}

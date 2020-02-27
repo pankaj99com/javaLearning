@@ -1,0 +1,60 @@
+package demo.pankaj.ConstructorChaining;
+
+public class Employee {
+	 
+    // member variables
+    int empId;
+   
+    String employer;
+    
+    String fName;
+    String lName;
+    int salary;
+    // default constructor
+    Employee() {
+ 
+        // an implicit super() constructor call to java.lang.Object is always present
+        System.out.println(" Inside default constructor");
+        this.employer = "Accolite Software";
+    }
+ 
+    // parametrized constructor with 1 argument (String)
+    Employee(String name) {
+ 
+        this(); // to invoke another constructor from same class, this() constructor is used
+ 
+        System.out.println("Employee class &gt;&gt; Inside parametrized constructor with 1 argument (String)");
+        this.empId = 0; // think of a contractual employee
+        this.fName = name;
+        this.lName = name;
+    }
+ 
+    // parametrized constructor with 2 arguments (int, String)
+    Employee(int id, String name) {
+ 
+        this(name); // to invoke another 1-argument overloaded constructor from same class, this(String) constructor is used
+ 
+        System.out.println("Employee class &gt;&gt; Inside parametrized constructor with 2 arguments (int, String)");
+        this.empId = id;
+    }
+ 
+    // display() method
+    void displayEmployeeInfo() {
+        System.out.println("\nEmployee details:  \n\nOrgnaization: " + employer + "\nId: " + empId + "\nFiirst Name: " + fName + "\nLast Naame:"+ lName);
+    }
+ 
+    // main() method - entry point to JVM
+    public static void main(String args[]) {
+ 
+        // construct an object for permanent employee
+        System.out.println("Creating and displaying permanent employee details\n");
+        Employee e = new Employee(19, "Rahul Dravid");
+         e.displayEmployeeInfo();
+  
+        System.out.println("******************************************************************");
+ 
+        
+ 
+      
+    }
+}

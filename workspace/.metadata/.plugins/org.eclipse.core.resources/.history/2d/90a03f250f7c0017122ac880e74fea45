@@ -1,0 +1,19 @@
+package demo.pankaj;
+
+import java.util.Arrays;
+
+public class FibonacciRecursion3 { 
+	 public static void main(String[] args) {
+		    int length = 20;
+		    long[] series = new long[length];
+		    series[0] = 0;
+		    series[1] = 1;
+		    for (int i = 2; i < length; i++) {
+		      series[i] = series[i - 1] + series[i - 2];
+		    }
+		    for(int i=0;i<length;i++){
+		    	 System.out.print("fibbonacci"+i+" ");	
+		    }
+		   
+		  }
+}

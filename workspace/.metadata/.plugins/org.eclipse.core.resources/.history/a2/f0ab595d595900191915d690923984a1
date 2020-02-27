@@ -1,0 +1,27 @@
+package roughPackage;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Duplicates {
+
+	public static void main(String[] args) {
+		
+		
+		
+		String names[]={"java","c","c++","java","qtp","c"};
+		
+		Set<String> store=new HashSet<String>();
+		
+		for(String n:names){
+			
+			if(store.add(n)== false){
+				
+				System.out.println("Duplicate is "+ n);
+				
+			}
+		}
+
+	}
+
+}

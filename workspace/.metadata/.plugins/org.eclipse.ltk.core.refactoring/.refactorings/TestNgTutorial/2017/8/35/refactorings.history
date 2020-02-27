@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CheckElementIsDisplayed.java&apos; to &apos;Learn-Automation/src&apos;&#x0D;&#x0A;- Original project: &apos;TestNgTutorial&apos;&#x0D;&#x0A;- Destination element: &apos;Learn-Automation/src&apos;&#x0D;&#x0A;- Original element: &apos;CheckElementIsDisplayed.java&apos;" description="Copy compilation unit" destination="=Learn-Automation/src" element1="/src&lt;{CheckElementIsDisplayed.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1503905318873" units="1" version="1.0"/>
+</session>

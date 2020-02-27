@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Generaa_logics&apos; to &apos;generalLogic&apos;&#x0D;&#x0A;- Original project: &apos;JavaPrograms&apos;&#x0D;&#x0A;- Original element: &apos;JavaPrograms/src/Generaa_logics&apos;&#x0D;&#x0A;- Renamed element: &apos;JavaPrograms/src/generalLogic&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Generaa_logics&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Generaa_logics" name="generalLogic" qualified="false" references="true" stamp="1554530232882" textual="false" version="1.0"/>
+</session>

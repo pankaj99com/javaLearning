@@ -1,0 +1,18 @@
+package demo.pankaj;
+
+public class Temperator {
+
+
+public static double tempcalculator(double f){
+	 double cel;
+    return cel = (f-32) / 1.8;
+	
+}
+
+    public static void main(String args[])
+    {
+        
+		
+        System.out.print("Equivalent Temperature in Celsius = " + tempcalculator(90));
+    }
+}

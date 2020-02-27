@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package String1.demo;
+
+/**
+ * @author Pankaj.Kumar
+ *
+ */
+public class RemovingDuplicates {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

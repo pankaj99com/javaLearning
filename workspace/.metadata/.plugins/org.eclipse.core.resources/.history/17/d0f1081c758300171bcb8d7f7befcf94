@@ -1,0 +1,13 @@
+package Arrays;
+
+public class SecondMaximum {
+
+	public static void main(String[] args) {
+	 
+		int [] array={1,3,9,5,2,4,11};
+		System.out.println(array.length);
+	
+
+	}
+
+}

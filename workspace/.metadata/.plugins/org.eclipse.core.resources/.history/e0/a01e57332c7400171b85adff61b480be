@@ -1,0 +1,12 @@
+
+public class A {
+int a=10;
+String z="pankaj";
+public void display(){
+	System.out.printf("details are\n", +this.a+ " "+this.z);
+}
+public static void main(String[] args) {
+	A o=new A();
+	o.display();
+}
+}

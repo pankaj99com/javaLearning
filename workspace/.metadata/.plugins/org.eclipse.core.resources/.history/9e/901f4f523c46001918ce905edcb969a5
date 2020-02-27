@@ -1,0 +1,35 @@
+package CucumberTest.CucumberTest;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+
+public class Apptest {
+	
+	
+	@Given("^I am a manual tester$")
+	public void i_am_a_manual_tester() throws Throwable {
+	    System.out.println("I am a manual tester");
+	    
+	}
+
+	@Given("^I prepared for exams$")
+	public void i_prepared_for_exams() throws Throwable {
+		 System.out.println("I prepared for exams");
+	
+	}
+
+	@When("^I apply for job$")
+	public void i_apply_for_job() throws Throwable {
+		 System.out.println("I apply for job");
+	    
+	}
+
+	@When("^I am not satisfied with the job$")
+	public void i_am_not_satisfied_with_the_job() throws Throwable {
+		System.out.println("I am not satisfied with the job");
+	  
+	}
+
+}

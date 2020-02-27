@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package Arrays;
+
+/**
+ * @author Pankaj.Kumar
+ *
+ */
+public class CommonValuesInTwoArrays {
+
+	/**
+	 * Write a Java program to find the common elements between two arrays 
+	 */
+	public static void main(String[] args) {
+		int[] array1={10,20,25,26,46};
+		int[] array2={10,325,265,46};
+		for(int i=0;i<array1.length;i++)
+		{
+			
+			for(int j=0;j<array2.length;j++)
+			{
+				if(array1[i]==array2[j])
+				{
+					System.out.println(array2[j]);
+					
+				}
+			}
+		}
+
+	}
+
+}

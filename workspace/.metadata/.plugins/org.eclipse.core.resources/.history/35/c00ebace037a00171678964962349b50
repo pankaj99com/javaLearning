@@ -1,0 +1,26 @@
+package Dropdowndemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class DropDownDemo {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", "C:\\selenium new jar\\firefox new\\geckodriver.exe");
+		WebDriver driver=new FirefoxDriver();
+		driver.get("https://en.wikipedia.org/w/index.php?title=Main_Page&action=history");
+		driver.manage().window().maximize();
+		//driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("pankaj");
+		//driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("kumar");
+		//driver.findElement(By.xpath("//input[@name='reg_email__']")).sendKeys("pankaj99.com@gmail.com");
+		//driver.findElement(By.xpath("//input[@id='u_0_f']")).sendKeys("12344@qwe!");
+		WebElement Drop_Down=driver.findElement(By.xpath(".//*[@id='month']"));
+		Select select=new Select(Drop_Down);
+		select.selectByIndex(10);
+		
+	}
+
+}

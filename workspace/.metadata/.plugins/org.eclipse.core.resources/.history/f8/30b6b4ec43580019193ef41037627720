@@ -1,0 +1,39 @@
+package roughPackage;
+
+import java.util.Scanner;
+
+public class FrequencyofAllCharInString {
+
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		
+		System.out.println("Enter the string ");
+		String str=sc.nextLine();
+		System.out.println("================");
+		System.out.println("length of string "+str.length());
+		for(char ch='a';ch<'z';ch++){
+			char count=0;
+			for(int i=0;i<str.length();i++){
+				
+				ch =str.charAt(i);
+				
+				if (count ==ch){
+					count++;
+					
+				}else {
+					
+				if(count!=0){
+					
+					System.out.println(ch +"\t" + count);
+				}
+					
+				}
+				
+				
+				
+			}
+		}
+
+	}
+
+}

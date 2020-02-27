@@ -1,0 +1,23 @@
+package demo.pankaj;
+
+
+public class FibonacciWithoutRecursion{
+	public static int getfib(int f){
+		int first=0,second=1,next,i;
+		System.out.print(first+" "+second);//printing 0 and 1 
+		for(i=2;i<f;i++)//loop starts from 2 because 0 and 1 are already printed    
+		 {    
+			 next=first+second; 
+			  first=second;    //first=1
+			  second=next;  
+			  System.out.print(" "+next);    //printing 1
+			  //second=1
+	}
+		return f;
+	}
+public static void main(String args[])  
+{    
+ System.out.println(getfib(10));
+ }    
+  
+}

@@ -1,0 +1,19 @@
+package demo.pankaj;
+
+public class Recursion {
+	public static int fibonacci(int i){
+		if(i==0)return 0;
+		if(i==1)return 1;
+		int fib=fibonacci(i-1)+fibonacci(i-2);
+		return fib;
+		}
+	public static void main(String[] args){
+		int index=0;
+		while(index<8)
+		{
+			System.out.println(fibonacci(index));
+			index++;
+		}
+	}
+
+}

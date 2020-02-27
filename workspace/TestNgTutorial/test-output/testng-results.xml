@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71" started-at="2020-02-05T16:44:14 IST" finished-at="2020-02-05T16:44:14 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71" started-at="2020-02-05T16:44:14 IST" finished-at="2020-02-05T16:44:14 IST">
+      <class name="TestNgPractice.OrtderOfExecution">
+        <test-method status="PASS" signature="click()[pri:1, instance:TestNgPractice.OrtderOfExecution@5123a213]" name="click" duration-ms="14" started-at="2020-02-05T16:44:14 IST" finished-at="2020-02-05T16:44:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click -->
+        <test-method status="PASS" signature="login()[pri:1, instance:TestNgPractice.OrtderOfExecution@5123a213]" name="login" duration-ms="1" started-at="2020-02-05T16:44:14 IST" finished-at="2020-02-05T16:44:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tear()[pri:1, instance:TestNgPractice.OrtderOfExecution@5123a213]" name="tear" duration-ms="2" started-at="2020-02-05T16:44:14 IST" finished-at="2020-02-05T16:44:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- TestNgPractice.OrtderOfExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

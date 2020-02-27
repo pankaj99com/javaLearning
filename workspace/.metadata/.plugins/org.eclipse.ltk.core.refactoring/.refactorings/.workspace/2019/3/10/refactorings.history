@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;WebDriver_TestNG_DDFramework&apos;" deleteContents="true" description="Delete resource &apos;WebDriver_TestNG_DDFramework&apos;" element1="/WebDriver_TestNG_DDFramework" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1552162123574"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;FirstScriptDemo.WebDriverDemo&apos; to &apos;Demo&apos;&#x0D;&#x0A;- Original project: &apos;Learn-Automation&apos;&#x0D;&#x0A;- Original element: &apos;FirstScriptDemo.WebDriverDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;FirstScriptDemo.Demo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WebDriverDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;FirstScriptDemo{WebDriverDemo.java[WebDriverDemo" matchStrategy="1" name="Demo" qualified="false" references="true" similarDeclarations="false" stamp="1501703390455" textual="false" version="1.0"/>
+</session>
