@@ -11,7 +11,7 @@ public class HandlingDropdown {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.gecko.driver", "C:\\selenium new jar\\firefox new\\geckodriver.exe");
+		//System.setProperty("webdriver.gecko.driver", "C:\\selenium new jar\\firefox new\\geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
 		driver.get("http://seleniumpractise.blogspot.in/2016/08/bootstrap-dropdown-example-for-selenium.html");
 		driver.findElement(By.xpath(".//*[@id='menu1']")).click();
@@ -21,8 +21,9 @@ public class HandlingDropdown {
 		WebElement w=drop_down.get(i);
 		String innerhtml=w.getAttribute("innerHTML");
 		System.out.println("Values from drop down is ----"+innerhtml);
-		}
 		
+		}
+		drop_down.get(2).click();
 	}
 
 }

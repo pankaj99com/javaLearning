@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20492" started-at="2019-04-21T18:38:31Z" finished-at="2019-04-21T18:38:51Z">
+  <suite name="Default suite" duration-ms="24602" started-at="2021-09-16T15:42:45Z" finished-at="2021-09-16T15:43:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20492" started-at="2019-04-21T18:38:31Z" finished-at="2019-04-21T18:38:51Z">
-      <class name="MultipleWindow">
-        <test-method status="PASS" signature="testMultipleWindows()[pri:0, instance:MultipleWindow@4de8b406]" name="testMultipleWindows" duration-ms="20452" started-at="2019-04-22T00:08:31Z" finished-at="2019-04-22T00:08:51Z">
+    <test name="Default test" duration-ms="24602" started-at="2021-09-16T15:42:45Z" finished-at="2021-09-16T15:43:10Z">
+      <class name="ScrollByVisibleElement">
+        <test-method status="PASS" signature="ByVisibleElement()[pri:0, instance:ScrollByVisibleElement@2ef5e5e3]" name="ByVisibleElement" duration-ms="24543" started-at="2021-09-16T21:12:45Z" finished-at="2021-09-16T21:13:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMultipleWindows -->
-      </class> <!-- MultipleWindow -->
+        </test-method> <!-- ByVisibleElement -->
+      </class> <!-- ScrollByVisibleElement -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

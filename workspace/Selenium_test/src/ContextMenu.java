@@ -13,10 +13,20 @@ public class ContextMenu {
 		WebDriver driver=new FirefoxDriver();
 		driver.get("http://demo.guru99.com/test/simple_context_menu.html");
 		Thread.sleep(3000);
-		Actions actions = new Actions(driver);
-		WebElement elementLocator = driver.findElement(By.xpath("//span[@class='context-menu-one btn btn-neutral']"));
 		
-		actions.contextClick(elementLocator).perform();
+		
+		Actions actions = new Actions(driver);
+		WebElement elementLocator1=driver.findElement(By.xpath("//button[normalize-space()='Double-Click Me To See Alert']"));
+		actions.doubleClick(elementLocator1).perform();
+		Thread.sleep(5000);
+//		WebElement element1 = driver.findElement(By.cssSelector(".context-menu-icon-copy"));
+//	    element1.click();
+	    String text1=driver.switchTo().alert().getText();
+		System.out.println(text1);
+		driver.switchTo().alert().accept();
+		Thread.sleep(5000);
+	WebElement elementLocator = driver.findElement(By.xpath("//span[@class='context-menu-one btn btn-neutral']"));
+   actions.contextClick(elementLocator).perform();
 		
 		WebElement element = driver.findElement(By.cssSelector(".context-menu-icon-copy"));
 		element.click();

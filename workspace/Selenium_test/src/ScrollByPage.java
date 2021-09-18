@@ -1,6 +1,7 @@
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class ScrollByPage {
@@ -9,7 +10,7 @@ public class ScrollByPage {
     @Test
     public void ByPage() {
        
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
 

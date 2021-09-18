@@ -14,7 +14,11 @@ public class ConstructorDemo {
 	    id = s.id;  
 	    name =s.name;  
 	    }  
-	    void display(){System.out.println(id+" "+name);}  
+	    void display()
+	    {
+	    	System.out.println(id+" "+name);
+	    	
+	    }  
 	   
 	    public static void main(String args[]){  
 	    	ConstructorDemo s1 = new ConstructorDemo(111,"Karan");  

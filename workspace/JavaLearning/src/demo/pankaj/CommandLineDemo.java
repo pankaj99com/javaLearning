@@ -21,7 +21,7 @@ String str="Hello Java";
 			System.out.println(c2.year);
 			System.out.println(c1.getyear());
 			System.out.println(c1.getModel());
-			System.out.println(c1.getModel());
+			System.out.println(c2.getModel());
 			}
 	}
 

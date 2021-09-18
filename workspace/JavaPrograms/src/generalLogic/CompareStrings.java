@@ -22,5 +22,7 @@ public class CompareStrings {
 				System.out.println("Strings are equal.");
 			else
 				System.out.println("Strings are not equal.");
+			
+			System.out.println(str1.equals(str2));
 		}
 	}

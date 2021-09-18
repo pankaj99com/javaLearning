@@ -15,9 +15,10 @@ public class AutoCompleteEditBoxDemo {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://jqueryui.com/autocomplete/");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.switchTo().frame(0);
 		driver.findElement(By.id("tags")).sendKeys("h");
-		driver.findElement(By.xpath("//input[@id='tags']")).sendKeys("h");
-		List<WebElement> li = driver.findElements(By.xpath(".//*[@id='tags']"));
+		//driver.findElement(By.xpath("//input[@id='tags']")).sendKeys("h");
+		List<WebElement> li = driver.findElements(By.xpath("//li[@class='ui-menu-item']"));
 		for (int i = 0; i < li.size(); i++) {
 			System.out.println(li.get(i).getText());
 

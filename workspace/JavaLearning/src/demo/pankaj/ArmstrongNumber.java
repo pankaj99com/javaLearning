@@ -3,7 +3,7 @@ package demo.pankaj;
 public class ArmstrongNumber {
 	 public static void main(String[] args)  {  
 		    int c=0,a,temp;  
-		    int n=153;//It is the number to check armstrong  
+		    int n=153;//It is the number to check armstrong 1+125+9= 
 		    temp=n;  
 		    while(n>0)  
 		    {  
