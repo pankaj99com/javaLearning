@@ -23,7 +23,9 @@ public class AnagramString {
         char[] strArray2 = str2.toCharArray();
                 
         Arrays.sort(strArray1);
+        System.out.println(strArray1);
         Arrays.sort(strArray2);
+        System.out.println(strArray2);
        
         String sortedStr1 = new String(strArray1);
         String sortedStr2 = new String(strArray2);

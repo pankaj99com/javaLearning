@@ -12,14 +12,14 @@ import org.testng.annotations.Test;
 public class OrtderOfExecution {
      @Test(priority=1)
 	public void login(){
-		System.out.println("This will execute last");
+		System.out.println("This will execute first");
 	}
-     @Test(priority=1)
+     @Test(priority=2)
  	public void click(){
-    	 System.out.println("This will execute first ");
+    	 System.out.println("This will execute second ");
  	}
-     @Test(priority=1)
+     @Test(priority=3)
  	public void tear(){
-    	 System.out.println("This will execute second");
+    	 System.out.println("This will execute last");
  	}
 }

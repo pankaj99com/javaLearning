@@ -3,6 +3,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class ScrollByVisibleElement {
@@ -11,7 +12,7 @@ public class ScrollByVisibleElement {
     @Test
     public void ByVisibleElement() {
         
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
         JavascriptExecutor js = (JavascriptExecutor) driver;
 
         //Launch the application		

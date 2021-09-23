@@ -11,7 +11,7 @@ public class PassParameters {
     	
     double sum1=b-a;
     
-    	System.out.println("subtration is "+sum1);
+    	System.out.println("substration is "+sum1);
 		
 	}
 	public static void main(String[] args) {

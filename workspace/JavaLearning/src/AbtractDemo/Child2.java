@@ -16,7 +16,7 @@ public class Child2 extends AbstractClassDemo{
     AbstractClassDemo ch=new Child2();//reference of abstract class and object of child class is valid
 	ch.display();
 	ch.print();
-	//ch.display1();//caanot access child class method since the reference is of abstract class.
+	//ch.display1();//cannot access child class method since the reference is of abstract class.
 
 	
 	}

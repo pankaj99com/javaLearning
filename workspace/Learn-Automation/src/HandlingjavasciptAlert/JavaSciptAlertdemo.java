@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class JavaSciptAlertdemo {
 
 	public static void main(String[] args) throws Exception {
-		System.setProperty("webdriver.gecko.driver", "C:\\selenium new jar\\firefox new\\geckodriver.exe");
+		//System.setProperty("webdriver.gecko.driver", "C:\\selenium new jar\\firefox new\\geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
 		driver.get("file:///D:/javasciptalert.txt.html");
 		Thread.sleep(3000);

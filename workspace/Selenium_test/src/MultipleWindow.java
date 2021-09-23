@@ -30,11 +30,13 @@ import java.util.Iterator;
 	    // Compare whether the main windows is not equal to child window. If not equal, we will close.
 	 if(!mainWindow.equals(childWindow)){
 	 driver.switchTo().window(childWindow);
+	 Utility.CaptureScreenshot(driver, "Multiplewindows1.png");
 	 System.out.println(driver.switchTo().window(childWindow).getTitle());
 	 driver.close();
 	 }
 	 }
 	 // This is to switch to the main window
 	 driver.switchTo().window(mainWindow);
+	 Utility.CaptureScreenshot(driver, "Multiplewindows2.png");
 	 }
 	}

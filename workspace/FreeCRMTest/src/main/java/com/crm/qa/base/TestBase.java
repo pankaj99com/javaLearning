@@ -21,7 +21,7 @@ public class TestBase {
 	public TestBase(){
 		prop=new Properties();
 		try {
-			FileInputStream fis=new FileInputStream("c:\\Users\\Pankaj.Kumar\\workspace\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+			FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
 			prop.load(fis);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
